@@ -1,0 +1,294 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.084);
+}
+.navbar-brand{
+    color:rgb(75, 74, 74);
+    font-size: 35px;
+    font-weight: 700;
+}
+.nav-link{
+    color:rgb(217, 23, 23);
+    font-size: 20px;
+    font-weight: 500;
+}
+a:hover{
+    color: #f5ad17 !important;
+}
+.custom{
+    background-color: red;
+}
+
+.btn-brand{
+    color:#fff;
+    background-color: #f5ad17;
+    border: none;
+    border-radius: 0;
+    padding: 10px 26px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .4s ease-in;
+}
+.btn-brand:hover{
+    color: #fff;
+    background-color: #c58d13d8;
+}
+.navbar-toggler{
+    color: #f5ad17 !important;
+}
+/* slider start */
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(vegetables-near-fried-chicken.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(slider-img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.font-size{
+    font-size: 75px;
+    font-weight: 700;
+}
+@media (max-width:530px){
+    .font-size{
+        font-size: 55px;
+    }
+}
+.margin{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: #000000ff;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+.col-lg-8 h6::after,
+.col-lg-8 h6::before{
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    position:absolute;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px; 
+}
+.col-lg-8 h6::before{
+    margin-left: -27px;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.shadow-on-hover{
+    transition: all .3s ease-in;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+/* slider end */
+
+
+/* about section */
+#about .divider{
+    width: 60px;
+    height: 4px;
+    background-color: #f5ad17;
+    margin-top: -10px;
+}
+.about-us h1{
+    font-size: 55px;
+}
+.about-us p{
+    font-size: 18px;
+}
+
+/* Menu section */
+
+.intro-text{
+    text-align: center;
+
+} 
+.intro-text p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    color: #222;
+    margin-left: 8px; 
+    margin-right: 8px;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #f5ad17;
+    color: #fff;
+}
+.menu-item-content i{
+    color: #f5ad17;
+}
+
+.menu-item-content h5:hover{
+    color: #f5ad17;
+    cursor: pointer;
+}
+
+/* Features section */
+
+#features{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./pasta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.feature{
+    border: 2px solid #fff;
+    margin-top: 30px;  
+}
+.feature-icon{
+    background-color: #f5ad17;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    margin:0 auto;
+    display:inline-grid;
+    place-items: center;
+    cursor: pointer;
+}
+.feature-icon i{
+    font-size: 30px;
+}
+/* Team section */
+.team-member img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 #f5ad17;
+    border-radius: 100px;
+}
+
+/* review section */
+
+#review{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./review-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+.review .quote-icon{
+    font-size: 74px;
+    color: #f5ad17;
+    line-height: 1;
+}
+.star{
+    color: #f5ad17; 
+}
+.carousel-indicators{
+    margin-bottom: -3rem ;
+}
+/* Rservation */
+#reservation .form-control{
+    border-radius: 0;
+}
+#reservation .form-control:focus{
+    box-shadow: none;
+    border-color: #f5ad17;
+}
+/* Instagram post section */
+.instagram-post{
+    position: relative;
+    overflow: hidden;
+}
+.instagram-post .insta-btn{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.instagram-post img{
+    transition: all .4s;
+}
+.instagram-post:hover img{
+    transform: scale(1.2);
+}
+.instagram-post:hover .insta-btn{
+    opacity: 1;
+}
+/* Blog post section */
+.blog-post img{
+    width: 40%;
+    object-fit: cover;
+    border-radius: .2rem;
+}
+.blog-post a{
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+@media (max-width:768px){
+    .blog-post img{
+        width: 100%;
+    }
+    .blog-post{
+        flex-direction: column;
+    }
+}
+
+/* Footer section */
+#footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./pasta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+    padding-top: 140px;
+    
+}
+.social-links i{
+    color: #fff;
+    font-size: 24px;
+    padding: 5px;
+    
+}
+.social-links a{
+    text-decoration: none;
+}
+.maximum{
+    max-width: 300px;
+}
+.footer-bottom{
+    border-top: 1px solid #ffffff60;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: #fff;
+}

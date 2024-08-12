@@ -27,4 +27,3 @@ Crispy Web Template is a modern HTML/CSS template designed with Bootstrap. This 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/hasanur347/crispy-web-template.git
-   cd crispy-web-template
